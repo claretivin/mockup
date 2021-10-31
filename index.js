@@ -9,13 +9,13 @@ $(document).ready(function(){
         // Store hash
         var hash = this.hash;
   
-        // Using jQuery's animate() method to add smooth page scroll
-        //(900) specifies the number of milliseconds takes to scroll to the specified area
+        //animate() method to smooth page scroll
+        //(900) specifies the number of milliseconds 
         $('html, body').animate({
           scrollTop: $(hash).offset().top
         }, 900, function(){
      
-          // Add hash (#) to URL when done scrolling (default click behavior)
+          // Add hash to URL when done scrolling 
           window.location.hash = hash;
         });
       } // End if

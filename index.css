@@ -122,7 +122,7 @@ body {
   
   .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: white ;
+    color:darkblue ;
   }
   .carousel-indicators li {
     border-color: grey;
