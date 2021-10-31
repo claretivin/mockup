@@ -14,8 +14,6 @@ body {
     letter-spacing: 4px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
-    position: fixed;
-    width: 100%;
   }
 
   .navbar li a, .navbar .navbar-brand {
@@ -214,3 +212,20 @@ body {
       font-weight: 200;
   }
 
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .container1 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
